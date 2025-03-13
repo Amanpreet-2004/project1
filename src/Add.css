@@ -1,0 +1,146 @@
+ .body {
+  font-family: Arial, sans-serif;
+  background-color:#cce2f8;  
+}
+
+.add {
+text-align: center;
+margin-left: 700px;
+ margin-top: 30px;
+}
+
+h1 {
+  color: #333;
+  margin-top: 0px;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+form#Information1 {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+
+a.link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 17px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
+
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+ 
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+}
+
+
+@media (max-width: 600px) {
+  form#Information {
+      width: 90%;
+  }
+
+  h1 {
+      font-size: 30px;
+  }
+} 
+@media (max-width: 600px) {
+  form#Information1 {
+      width: 90%;
+      padding: 15px; 
+  }
+
+  h1 {
+      font-size: 30px;
+  }
+
+  .add {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  select {
+      padding: 10px;
+      font-size: 14px; 
+  }
+
+  input[type="button"] {
+      font-size: 16px;
+      padding: 10px; 
+  }
+
+  a.link {
+      font-size: 14px; 
+  }
+}

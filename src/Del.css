@@ -1,0 +1,49 @@
+.delete-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 400px;
+     margin: 100px auto;
+    background-color: #f9f9f9;
+} 
+
+.delete-container h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+
+.delete-container input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+   
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.delete-container input:focus {
+    border-color: #5c9dff;
+    box-shadow: 0 0 5px rgba(92, 157, 255, 0.5);
+}
+
+.delete-container button {
+    padding: 0px 20px;
+    background-color:#34495e;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+

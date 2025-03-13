@@ -1,0 +1,61 @@
+
+.admin-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-sidebar {
+ 
+  background-color:#34495e;
+  position: fixed;
+  color: white;
+  gap: 10%;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.admin-sidebar-title {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.admin-sidebar-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-sidebar-links li {
+  margin-bottom: 15px;
+
+}
+
+.admin-sidebar-links li a {
+  color: #fff;
+  margin-top: 60px;
+font-weight: 500;
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: block;
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-sidebar-links li a:hover {
+  color: #f39c12;
+  text-decoration: underline;
+}
+
+.admin-sidebar-actions {
+  margin-top: 30px;
+}
+

@@ -1,0 +1,122 @@
+
+.customer-container {
+    background-color: #34495e; 
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-container h1 {
+    color: white; 
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .customer-container p {
+    text-align: center;
+    color: #f39c12;
+    font-size: 1.2rem;
+  }
+  
+  
+  
+
+  .nav1 {
+    margin-top: 20px;
+    background-color: #f39c12; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding:5px;
+  }
+  
+  
+  .nav1 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+  }
+  
+  
+  .nav1 li {
+    margin: 0 15px; 
+  }
+  
+  
+  .nav1 a {
+    text-decoration: none;
+    color: #34495e; 
+    font-size: 20px;
+   font-weight: 600; 
+    padding: 12px 45px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+  }
+  
+  
+  .nav1 a:hover {
+    background-color: #34495e; 
+    color: #fff; 
+    transform: scale(1.05); 
+  }
+  
+  /* Styles for the Popup */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensures popup is on top */
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.popup-content h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.popup-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.close-popup-btn {
+  background-color: #34495e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.close-popup-btn:hover {
+  background-color: #2c3e50;
+}
+
+
+.product-container {
+  padding: 20px;
+}

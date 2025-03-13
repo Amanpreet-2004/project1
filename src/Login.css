@@ -1,0 +1,158 @@
+
+ .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+  background-color: #34495e; 
+}
+
+
+body {
+  margin-top: 80px;
+  background-color:#cbdced; 
+  overflow-x:hidden ;
+}
+
+
+.data {
+  text-align: center;
+  margin-top: 60px; 
+}
+
+.data h1 {
+  font-size: 36px;
+  font-weight: 600;
+
+  background-color: #cbdced;
+  color:#203142;
+  justify-items: center;
+}
+
+
+.data .link {
+  text-decoration: none;
+  color:#34495e;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.data .link:hover {
+  color:#f39c12;
+}
+
+
+#Information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Information label {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+#Information input[type="text"],
+#Information input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  transition: border-color 0.3s;
+}
+
+#Information input[type="text"]:focus,
+#Information input[type="password"]:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+#Information input[type="button"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #34495e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#Information input[type="button"]:hover {
+  background-color:#f39c12;
+}
+
+#Information a.link {
+  margin-top: 10px;
+  color:#f39c12;
+}
+
+#Information a.link:hover {
+  text-decoration: underline;
+}
+
+.modal{
+  width:900px;
+  margin-left: 60%;
+  max-width: 900px;
+color:#34495e ;
+margin-top: 0px;
+}
+
+.modal-content {
+  background-color: #34495e;
+ font-size: 20px;
+  padding: 50px;
+}
+
+.modal-header {
+  background-color:#34495e ;
+  color: white;
+}
+
+
+
+
+form#Information {
+  margin: 30px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+input[type="button"] {
+  padding: 10px 20px;
+  background-color: #34495e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #f39c12;
+}
+
+
+footer {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
