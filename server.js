@@ -4,11 +4,11 @@ const app = express();
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const multer = require("multer");
-const Product = require("../form");
-const value = require("../user");
+const Product = require("./form");
+const value = require("./user");
 const cors = require("cors");
-const submit = require("../Asign");
-const Like = require("../Liked");
+const submit = require("./Asign");
+const Like = require("./Liked");
 
 
 app.use(cors());
